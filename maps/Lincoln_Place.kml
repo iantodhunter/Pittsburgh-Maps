@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lincoln_Place.kml</name>
+	<Schema name="Neighborhood" id="S_Neighborhood_ISSSSSSSSDDSSDIDDIISIDDIIIDDDDI">
+		<SimpleField type="int" name="FID_BlockG"><displayName>&lt;b&gt;FID_BlockG&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="STATEFP10"><displayName>&lt;b&gt;STATEFP10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="COUNTYFP10"><displayName>&lt;b&gt;COUNTYFP10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TRACTCE10"><displayName>&lt;b&gt;TRACTCE10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BLKGRPCE10"><displayName>&lt;b&gt;BLKGRPCE10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GEOID10"><displayName>&lt;b&gt;GEOID10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NAMELSAD10"><displayName>&lt;b&gt;NAMELSAD10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MTFCC10"><displayName>&lt;b&gt;MTFCC10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUNCSTAT10"><displayName>&lt;b&gt;FUNCSTAT10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ALAND10"><displayName>&lt;b&gt;ALAND10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="AWATER10"><displayName>&lt;b&gt;AWATER10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="INTPTLAT10"><displayName>&lt;b&gt;INTPTLAT10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="INTPTLON10"><displayName>&lt;b&gt;INTPTLON10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="FID_Neighb"><displayName>&lt;b&gt;FID_Neighb&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="PERIMETER"><displayName>&lt;b&gt;PERIMETER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="NEIGHBOR_"><displayName>&lt;b&gt;NEIGHBOR_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="NEIGHBOR_I"><displayName>&lt;b&gt;NEIGHBOR_I&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="HOOD"><displayName>&lt;b&gt;HOOD&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="HOOD_NO"><displayName>&lt;b&gt;HOOD_NO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ACRES"><displayName>&lt;b&gt;ACRES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="SQMILES"><displayName>&lt;b&gt;SQMILES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="DPWDIV"><displayName>&lt;b&gt;DPWDIV&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="UNIQUE_ID"><displayName>&lt;b&gt;UNIQUE_ID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="SECTORS"><displayName>&lt;b&gt;SECTORS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Le_1"><displayName>&lt;b&gt;Shape_Le_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Ar_1"><displayName>&lt;b&gt;Shape_Ar_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Le_2"><displayName>&lt;b&gt;Shape_Le_2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Area"><displayName>&lt;b&gt;Shape_Area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Page_Numbe"><displayName>&lt;b&gt;Page_Numbe&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID_BlockG</b></td><td>$[Neighborhood/FID_BlockG]</td></tr>
+  <tr><td><b>STATEFP10</b></td><td>$[Neighborhood/STATEFP10]</td></tr>
+  <tr><td><b>COUNTYFP10</b></td><td>$[Neighborhood/COUNTYFP10]</td></tr>
+  <tr><td><b>TRACTCE10</b></td><td>$[Neighborhood/TRACTCE10]</td></tr>
+  <tr><td><b>BLKGRPCE10</b></td><td>$[Neighborhood/BLKGRPCE10]</td></tr>
+  <tr><td><b>GEOID10</b></td><td>$[Neighborhood/GEOID10]</td></tr>
+  <tr><td><b>NAMELSAD10</b></td><td>$[Neighborhood/NAMELSAD10]</td></tr>
+  <tr><td><b>MTFCC10</b></td><td>$[Neighborhood/MTFCC10]</td></tr>
+  <tr><td><b>FUNCSTAT10</b></td><td>$[Neighborhood/FUNCSTAT10]</td></tr>
+  <tr><td><b>ALAND10</b></td><td>$[Neighborhood/ALAND10]</td></tr>
+  <tr><td><b>AWATER10</b></td><td>$[Neighborhood/AWATER10]</td></tr>
+  <tr><td><b>INTPTLAT10</b></td><td>$[Neighborhood/INTPTLAT10]</td></tr>
+  <tr><td><b>INTPTLON10</b></td><td>$[Neighborhood/INTPTLON10]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[Neighborhood/Shape_Leng]</td></tr>
+  <tr><td><b>FID_Neighb</b></td><td>$[Neighborhood/FID_Neighb]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[Neighborhood/AREA]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[Neighborhood/PERIMETER]</td></tr>
+  <tr><td><b>NEIGHBOR_</b></td><td>$[Neighborhood/NEIGHBOR_]</td></tr>
+  <tr><td><b>NEIGHBOR_I</b></td><td>$[Neighborhood/NEIGHBOR_I]</td></tr>
+  <tr><td><b>HOOD</b></td><td>$[Neighborhood/HOOD]</td></tr>
+  <tr><td><b>HOOD_NO</b></td><td>$[Neighborhood/HOOD_NO]</td></tr>
+  <tr><td><b>ACRES</b></td><td>$[Neighborhood/ACRES]</td></tr>
+  <tr><td><b>SQMILES</b></td><td>$[Neighborhood/SQMILES]</td></tr>
+  <tr><td><b>DPWDIV</b></td><td>$[Neighborhood/DPWDIV]</td></tr>
+  <tr><td><b>UNIQUE_ID</b></td><td>$[Neighborhood/UNIQUE_ID]</td></tr>
+  <tr><td><b>SECTORS</b></td><td>$[Neighborhood/SECTORS]</td></tr>
+  <tr><td><b>Shape_Le_1</b></td><td>$[Neighborhood/Shape_Le_1]</td></tr>
+  <tr><td><b>Shape_Ar_1</b></td><td>$[Neighborhood/Shape_Ar_1]</td></tr>
+  <tr><td><b>Shape_Le_2</b></td><td>$[Neighborhood/Shape_Le_2]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[Neighborhood/Shape_Area]</td></tr>
+  <tr><td><b>Page_Numbe</b></td><td>$[Neighborhood/Page_Numbe]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Lincoln Place</name>
+		<visibility>0</visibility>
+		<styleUrl>#falseColor</styleUrl>
+		<Style id="inline">
+			<IconStyle>
+				<color>ffe8e8e8</color>
+				<colorMode>normal</colorMode>
+			</IconStyle>
+			<LineStyle>
+				<color>ffe8e8e8</color>
+				<colorMode>normal</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffe8e8e8</color>
+				<colorMode>normal</colorMode>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_Neighborhood_ISSSSSSSSDDSSDIDDIISIDDIIIDDDDI">
+				<SimpleData name="FID_BlockG">246</SimpleData>
+				<SimpleData name="STATEFP10">42</SimpleData>
+				<SimpleData name="COUNTYFP10">003</SimpleData>
+				<SimpleData name="TRACTCE10">310200</SimpleData>
+				<SimpleData name="BLKGRPCE10">4</SimpleData>
+				<SimpleData name="GEOID10">420033102004</SimpleData>
+				<SimpleData name="NAMELSAD10">Block Group 4</SimpleData>
+				<SimpleData name="MTFCC10">G5030</SimpleData>
+				<SimpleData name="FUNCSTAT10">S</SimpleData>
+				<SimpleData name="ALAND10">1.04714e+06</SimpleData>
+				<SimpleData name="AWATER10">0</SimpleData>
+				<SimpleData name="INTPTLAT10">+40.3745282</SimpleData>
+				<SimpleData name="INTPTLON10">-079.9191876</SimpleData>
+				<SimpleData name="Shape_Leng">15834.1</SimpleData>
+				<SimpleData name="FID_Neighb">94</SimpleData>
+				<SimpleData name="AREA">2.74251e+07</SimpleData>
+				<SimpleData name="PERIMETER">27507.9</SimpleData>
+				<SimpleData name="NEIGHBOR_">95</SimpleData>
+				<SimpleData name="NEIGHBOR_I">2177</SimpleData>
+				<SimpleData name="HOOD">Lincoln Place</SimpleData>
+				<SimpleData name="HOOD_NO">46</SimpleData>
+				<SimpleData name="ACRES">632.497</SimpleData>
+				<SimpleData name="SQMILES">0.984</SimpleData>
+				<SimpleData name="DPWDIV">4</SimpleData>
+				<SimpleData name="UNIQUE_ID">113</SimpleData>
+				<SimpleData name="SECTORS">8</SimpleData>
+				<SimpleData name="Shape_Le_1">27507.9</SimpleData>
+				<SimpleData name="Shape_Ar_1">2.74251e+07</SimpleData>
+				<SimpleData name="Shape_Le_2">27506</SimpleData>
+				<SimpleData name="Shape_Area">2.74128e+07</SimpleData>
+				<SimpleData name="Page_Numbe">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-79.91053705118685,40.37859127881968,0 -79.91061388816483,40.37872035388732,0 -79.91063447015821,40.37875081166506,0 -79.91076347620111,40.37892091860631,0 -79.91097501496623,40.37913594102902,0 -79.91108668295156,40.3792454006208,0 -79.91119671012058,40.37938775532523,0 -79.91127018826951,40.37949595672391,0 -79.91131249574993,40.37958380366531,0 -79.91141615097378,40.37979346495976,0 -79.91151111530431,40.37998398241045,0 -79.9115401338137,40.38004925371705,0 -79.91156520555711,40.38015947555927,0 -79.91162009817344,40.38031796422526,0 -79.91163527132835,40.38041335573966,0 -79.91163609076899,40.38049503004331,0 -79.91161915972538,40.38061110113161,0 -79.91171642330507,40.38063502233471,0 -79.91198051695682,40.38069692162132,0 -79.91221570596232,40.38075318348745,0 -79.91243191082592,40.38081923882093,0 -79.91260126843031,40.38086600716229,0 -79.91279664982768,40.38092653137018,0 -79.91334294944221,40.38101308741679,0 -79.91377912568184,40.38098251831661,0 -79.9156679996334,40.38027699970088,0 -79.91613601108112,40.38011443652964,0 -79.91618799995875,40.38009699956989,0 -79.91624100034542,40.38007900038466,0 -79.91631099961403,40.38005399958775,0 -79.91665000009179,40.37993800007464,0 -79.91668200055507,40.37992599996613,0 -79.91676920099263,40.37989576094504,0 -79.9168059997089,40.37988299960502,0 -79.91709599941368,40.37978199982524,0 -79.91747995338248,40.37964846995784,0 -79.91783500053543,40.37952500012675,0 -79.91791248735379,40.37949083284983,0 -79.91796200058793,40.37946900027907,0 -79.91815299945614,40.37938600029299,0 -79.91823699950061,40.37933200038616,0 -79.91828304179698,40.37930307636207,0 -79.91831500027313,40.3792830002955,0 -79.91845005514867,40.37917093353722,0 -79.91855000009181,40.37908799982034,0 -79.91864271501717,40.37902045531746,0 -79.9188077258886,40.37890024101759,0 -79.91884100032856,40.37887599968676,0 -79.91920118692802,40.37862237151074,0 -79.91924999944321,40.37858799973192,0 -79.91925238229179,40.37858601358899,0 -79.91925599962715,40.37858299978295,0 -79.91934534039807,40.37852600779346,0 -79.91937200048454,40.37850900023766,0 -79.91944232365076,40.37845566809511,0 -79.91952099992211,40.37839599988358,0 -79.91958302244601,40.37834390107004,0 -79.91964600033445,40.37829099961063,0 -79.9198239997194,40.37816500024832,0 -79.91993663583969,40.37809670908695,0 -79.91995100044512,40.37808799976374,0 -79.91995114468891,40.37808794300058,0 -79.91998403643125,40.37807502072225,0 -79.920062999881,40.37804399975078,0 -79.92025500018444,40.37803000007955,0 -79.92040099951437,40.37804699983876,0 -79.92049600056897,40.37806900039301,0 -79.92052660538135,40.37808091195935,0 -79.92066299956223,40.37813399969807,0 -79.92093100009079,40.37826299995879,0 -79.92098608774513,40.37829219634873,0 -79.92113099987452,40.37836900000253,0 -79.9213759995978,40.37848699977117,0 -79.92180763554964,40.37864767497786,0 -79.92182999981573,40.37865599991252,0 -79.92220699944077,40.37875200015252,0 -79.92228309503889,40.37876574625698,0 -79.92236199998516,40.37877999979177,0 -79.92267800043248,40.3788060001187,0 -79.92273899966115,40.37881199967096,0 -79.92283699999093,40.37882299992954,0 -79.92303399951584,40.37887900002386,0 -79.92323399945303,40.37898400014746,0 -79.92339299941612,40.37908999968001,0 -79.92349099952602,40.37913899986764,0 -79.92358600052414,40.37915100007682,0 -79.92362100052304,40.37914399992461,0 -79.92376300003417,40.37909300020137,0 -79.92391300054103,40.37906100032877,0 -79.92402395526589,40.37908859561978,0 -79.92410600048302,40.3791090003391,0 -79.92413908217189,40.37911896078757,0 -79.92419900056716,40.37913700023158,0 -79.92433302012546,40.3791779351705,0 -79.92443799951545,40.37921000010913,0 -79.92483435255242,40.37934576203487,0 -79.92487300003275,40.37935900019811,0 -79.92504099972298,40.37942699956809,0 -79.92517410619449,40.37948226647182,0 -79.92521200018211,40.37949799971529,0 -79.92531700015645,40.37953700017979,0 -79.92535499974676,40.37955099991596,0 -79.92546899981832,40.37959299992738,0 -79.92550699947161,40.37960699961344,0 -79.9255071480849,40.37960678600958,0 -79.92552907379684,40.37957522348606,0 -79.92559799951309,40.37947600013393,0 -79.92561499978756,40.37945200041864,0 -79.92568204739726,40.37932400078067,0 -79.92574699956229,40.37919999990886,0 -79.9259800001857,40.37871599995694,0 -79.92633532688173,40.37798199211547,0 -79.92648200057546,40.37767900039744,0 -79.92649636712675,40.37764728287867,0 -79.92655900056603,40.37750900043377,0 -79.92665999986122,40.37724599971808,0 -79.92667284469447,40.37720333105337,0 -79.92671900039747,40.37705000022509,0 -79.92678000054782,40.37677999971858,0 -79.92681699980085,40.37651300026763,0 -79.92682699947008,40.37625199978488,0 -79.9268251995051,40.37620639562044,0 -79.92681800033705,40.37602399966661,0 -79.92679900055579,40.37585299971082,0 -79.92678800054621,40.37575099974227,0 -79.92676799987193,40.37563499968583,0 -79.92669599984148,40.37536599964175,0 -79.92667202956201,40.37529285495848,0 -79.92657520592914,40.37499740395405,0 -79.92649419366742,40.37500416625546,0 -79.92617685708501,40.37503065684194,0 -79.92489585794641,40.37509529802654,0 -79.92488347166518,40.37501727367321,0 -79.92468183586504,40.37306224576081,0 -79.92367241675635,40.37100876280093,0 -79.92343801551141,40.37053203032368,0 -79.92236058939501,40.37071267729382,0 -79.92236052122374,40.37071191283705,0 -79.9223599998931,40.37071200012242,0 -79.92227178478694,40.36972369472958,0 -79.92227170408765,40.3697237124638,0 -79.92217737864621,40.36867209069881,0 -79.92054818076579,40.36545284232493,0 -79.91377390979673,40.36553561048554,0 -79.91374205180355,40.36553608965476,0 -79.91374193998483,40.3655360917508,0 -79.91362981322925,40.36553776379974,0 -79.913512711927,40.36531411271261,0 -79.91321185629302,40.36471909619695,0 -79.91188205621924,40.36507565732573,0 -79.91153542970888,40.36456421168102,0 -79.91136602001684,40.36427615215047,0 -79.91123331911695,40.36404146437286,0 -79.91079576445314,40.36288953333339,0 -79.90955004284459,40.36325067229627,0 -79.90809975705417,40.3636417944013,0 -79.90706361918215,40.36160246100663,0 -79.90597766048921,40.36206260530453,0 -79.90589929874079,40.36209581373278,0 -79.90579354136624,40.36212816536259,0 -79.90481244537257,40.36220500551571,0 -79.90512954882757,40.36287602279326,0 -79.90514301900349,40.36290443147015,0 -79.90511690375602,40.3629170969901,0 -79.90511899987494,40.36292200000945,0 -79.9001740610954,40.36531399198119,0 -79.90334211953012,40.37195985841824,0 -79.90840837456737,40.37051866458464,0 -79.91167092863752,40.37279313392152,0 -79.91169518419913,40.37281012232448,0 -79.91174070116872,40.37284185346715,0 -79.90875187759706,40.37675809777632,0 -79.90922938448301,40.37696823527248,0 -79.90828444577676,40.37823912478115,0 -79.90878173954655,40.37832387219912,0 -79.9089833792108,40.37835588406391,0 -79.90959369113565,40.37845207163414,0 -79.91022325089891,40.37857466870719,0 -79.91041772104606,40.37841056935865,0 -79.91045341233919,40.3784600139589,0 -79.91053705118685,40.37859127881968,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
